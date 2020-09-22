@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "accountName": {
+      "value": "fb-cassandra"
+    },   
+    "primaryRegion": {
+      "value": "West Europe"
+    },
+    "secondaryRegion": {
+      "value": "North Europe"
+    },
+    "keyspaceName": {
+      "value": "productviews"
+    },
+    "tableName": {
+      "value": "product"
+    }
+  }
+}
